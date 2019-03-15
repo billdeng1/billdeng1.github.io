@@ -1,10 +1,3 @@
----
-layout: post
-title:  "Welcome to Jekyll!"
----
+## Kinematic Flight Simulation
 
-# Welcome
-
-**Hello world**, this is my first Jekyll blog post.
-
-I hope you like it!
+# This is a placeholder.
