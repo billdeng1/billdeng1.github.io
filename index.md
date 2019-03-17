@@ -27,10 +27,10 @@ First level header
 
 # This is a placeholder.
 
-Test 3
+Let \(N,B,T,k) be the vectors shown in the diagram, with \(\mathbf{k} = p \mathbf{T} + q \mathbf{B}), where \(q,p) denote the pitch and roll rates respectively.
 
 {:refdef: style="text-align: center;"}
-![](diagramvectors.jpg){:height="250px" width="376px"}
+![](diagramvectors.jpg){:height="200px" width="301px"}
 {: refdef}
 
 $$
