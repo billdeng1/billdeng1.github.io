@@ -26,6 +26,8 @@ title: Kinematic Flight Simulation
 iframe {
   width: 560px;
   height: 340px;
+  margin-left: auto; 
+  margin-right: auto;
 } 
 </style>
 {::comment}
