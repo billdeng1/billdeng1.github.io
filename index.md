@@ -24,7 +24,7 @@ title: Kinematic Flight Simulation
 	   border: 1px solid black;
 	}
 iframe {
-  width: 560px;
+  width: 544px;
   height: 340px;
   margin-left: auto; 
   margin-right: auto;
