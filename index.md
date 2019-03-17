@@ -6,13 +6,6 @@ title: Introduction
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
-img[src~="thumbnail"] {
-   width:150px;
-   height:100px;
-}
-img[src~="bordered"] {
-   border: 1px solid black;
-}
 
 
 First level header
@@ -70,4 +63,4 @@ $$
 C(t) = \left( \cos\biggl(t-\frac{\pi}{2}\biggr),\sin\biggl(t-\frac{\pi}{2}\biggr)+1,0\right).
 $$
 
-![](diagramcont.jpg# thumbnail bordered)
+![](diagramcont.jpg){:height="36px" width="36px"}
