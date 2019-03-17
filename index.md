@@ -23,6 +23,10 @@ title: Kinematic Flight Simulation
   img[src*="diagramvectors.jpg"] {
 	   border: 1px solid black;
 	}
+iframe {
+  width: 560px;
+  height: 340px;
+} 
 </style>
 {::comment}
 
