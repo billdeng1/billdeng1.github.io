@@ -59,7 +59,7 @@ $$
 $$
 
 $$
-C(t) = \left( \cos(t-\frac{\pi}{2}),\sin(t-\frac{\pi}{2})+1,0\right).
+C(t) = \left( \cos\biggl(t-\frac{\pi}{2}\biggr),\sin\biggl(t-\frac{\pi}{2}\biggr)+1,0\right).
 $$
 
 ![](diagramcont.jpg)
