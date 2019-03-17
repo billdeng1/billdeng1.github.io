@@ -27,7 +27,7 @@ First level header
 
 # This is a placeholder.
 
-Let \(\mathbf{N},\mathbf{B},\mathbf{T},\mathbf{k}\) be the vectors shown in the diagram, with \(\mathbf{k} = p \mathbf{T} + q \mathbf{B}\), where \(q,p\) denote the pitch and roll rates respectively.
+Let $$\mathbf{N},\mathbf{B},\mathbf{T},\mathbf{k}$$ be the vectors shown in the diagram, with $$\mathbf{k} = p \mathbf{T} + q \mathbf{B}$$, where $$q$$ and $$p$$ denote the pitch and roll rates respectively.
 
 {:refdef: style="text-align: center;"}
 ![](diagramvectors.jpg){:height="200px" width="301px"}
