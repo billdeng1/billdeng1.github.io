@@ -28,7 +28,12 @@ iframe {
   height: 340px;
   margin-left: auto; 
   margin-right: auto;
-} 
+}
+figure{
+  text-align: center;
+  margin-left: auto; 
+  margin-right: auto;
+}
 </style>
 {::comment}
 
