@@ -37,4 +37,15 @@ $$
 \end{align*}
 $$
 
+$$
+p\frac{d\mathbf{T}}{dt}  + q\frac{d\mathbf{B}}{dt} +  r\frac{d\mathbf{N}}{dt} = 0.
+$$
+
+$$
+A(p) = 4\pi\left(1-\sqrt{1-\frac{p^2}{q^2+ r^2+p^2}}\right).
+$$
+
+$$
+\mathbf{h} = \Biggl(\frac{2\pi p^2}{(p^2+q^2+ r^2)^\frac{3}{2}} ,\frac{2\pi p\sqrt{q^2+ r^2}}{(p^2+q^2+ r^2)^\frac{3}{2}} \Biggr),
+$$
 ![](diagramcont.jpg)
