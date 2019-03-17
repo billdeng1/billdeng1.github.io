@@ -46,6 +46,16 @@ A(p) = 4\pi\left(1-\sqrt{1-\frac{p^2}{q^2+ r^2+p^2}}\right).
 $$
 
 $$
-\mathbf{h} = \Biggl(\frac{2\pi p^2}{(p^2+q^2+ r^2)^\frac{3}{2}} ,\frac{2\pi p\sqrt{q^2+ r^2}}{(p^2+q^2+ r^2)^\frac{3}{2}} \Biggr),
+\mathbf{h} = \Biggl(\frac{2\pi p^2}{(p^2+q^2+ r^2)^\frac{3}{2}} ,\frac{2\pi p\sqrt{q^2+ r^2}}{(p^2+q^2+ r^2)^\frac{3}{2}} \Biggr).
 $$
+
+$$
+  f_p (t) =
+  \begin{cases}
+                                   p & \text{if $0 \leq t < \frac{2\pi}{\left|\mathbf{k}\right|}$} \\
+                                   0 & \text{if $\frac{2\pi}{\left|\mathbf{k}\right|} \leq  t< \frac{2\pi}{\left|\mathbf{k}\right|} +  \frac{\pi}{q}$} \\
+                                    -p & \text{if $\frac{2\pi}{\left|\mathbf{k}\right|}  +  \frac{\pi}{q}\leq  t\leq\frac{4\pi}{\left|\mathbf{k}\right|} +  \frac{\pi}{q}$} \\
+  \end{cases}.
+$$
+
 ![](diagramcont.jpg)
