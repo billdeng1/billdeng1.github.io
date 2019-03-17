@@ -7,6 +7,10 @@ title: Introduction
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
+img[src*="diagramcont.jpg"] {
+   border: 1px solid black;
+}
+
 
 First level header
 ==================
@@ -64,5 +68,5 @@ C(t) = \left( \cos\biggl(t-\frac{\pi}{2}\biggr),\sin\biggl(t-\frac{\pi}{2}\biggr
 $$
 
 {:refdef: style="text-align: center;"}
-![](diagramcont.jpg){:height="250px" width="372px" border="1px solid blue"}
+![](diagramcont.jpg){:height="300px" width="446px"}
 {: refdef}
