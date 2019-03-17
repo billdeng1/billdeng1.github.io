@@ -56,18 +56,20 @@ $$
                                    p & \text{if $0 \leq t < \frac{2\pi}{\left|\mathbf{k}\right|}$} \\
                                    0 & \text{if $\frac{2\pi}{\left|\mathbf{k}\right|} \leq  t< \frac{2\pi}{\left|\mathbf{k}\right|} +  \frac{\pi}{q}$} \\
                                     -p & \text{if $\frac{2\pi}{\left|\mathbf{k}\right|}  +  \frac{\pi}{q}\leq  t\leq\frac{4\pi}{\left|\mathbf{k}\right|} +  \frac{\pi}{q}$} \\
-  \end{cases}.
+  \end{cases},
 $$
 
-The resulting trajectory is shown in this diagram,
+where $$p$$ is a chosen constant.
+
+The resulting trajectory is shown in the diagram
 
 {:refdef: style="text-align: center;"}
 ![](diagramcont.jpg){:height="300px" width="446px"}
 {: refdef}
 
-where $$C(t) = \left( \cos(t-\frac{\pi}{2}),\sin\(t-\frac{\pi}{2})+1,0\right)$$ is a parameterization of the initial turn circle.
+where $$C(t) = \left( \cos(t-\frac{\pi}{2}),\sin(t-\frac{\pi}{2})+1,0\right)$$ is a parameterization of the initial turn circle.
 
-
+The following formula gives the angular difference that results from one iteration of our heuristic:
 
 $$
 A(p) = 4\pi\left(1-\sqrt{1-\frac{p^2}{q^2+p^2}}\right).
