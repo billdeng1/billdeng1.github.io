@@ -58,4 +58,8 @@ $$
   \end{cases}.
 $$
 
+$$
+C(t) = \left( \cos(t-\frac{\pi}{2}),\sin(t-\frac{\pi}{2})+1,0\right).
+$$
+
 ![](diagramcont.jpg)
