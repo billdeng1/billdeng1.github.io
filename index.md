@@ -15,6 +15,7 @@ title: Introduction
 	   border: 1px solid black;
 	}
 </style>
+{::comment}
 
 First level header
 ==================
@@ -26,6 +27,8 @@ First level header
 ## Test
 
 # This is a placeholder.
+{:/comment}
+
 
 Let $$\mathbf{N},\mathbf{B},\mathbf{T},\mathbf{k}$$ be the vectors shown in the diagram, with $$\mathbf{k} = p \mathbf{T} + q \mathbf{B}$$, where $$q$$ and $$p$$ denote the pitch and roll rates respectively.
 
@@ -33,17 +36,19 @@ Let $$\mathbf{N},\mathbf{B},\mathbf{T},\mathbf{k}$$ be the vectors shown in the 
 ![](diagramvectors.jpg){:height="200px" width="301px"}
 {: refdef}
 
+We solve the following differential equation
+
 $$
-p\frac{d\mathbf{T}}{dt}  + q\frac{d\mathbf{B}}{dt} = 0.
+p\frac{d\mathbf{T}}{dt}  + q\frac{d\mathbf{B}}{dt} = 0
 $$
+
+to obtain
 
 $$
 \mathbf{T}(t)=\mathbf{k}\frac{\mathbf{k}\cdot \mathbf{T}(0)}{\mathbf{k}\cdot \mathbf{k}}+\left(\mathbf{T}(0)-\mathbf{k}\frac{\mathbf{k}\cdot \mathbf{T}(0)}{\mathbf{k}\cdot \mathbf{k}}\right)\cos\left(|\mathbf{k}|\,t\right)+\frac{\mathbf{k}}{|\mathbf{k}|}\times \mathbf{T}(0)\sin\left(|\mathbf{k}|\,t\right).
 $$
 
-$$
-A(p) = 4\pi\left(1-\sqrt{1-\frac{p^2}{q^2+p^2}}\right).
-$$
+This leads to the following heuristic for controlling the roll rate of the plane:
 
 $$
   f_p (t) =
@@ -54,10 +59,17 @@ $$
   \end{cases}.
 $$
 
-$$
-C(t) = \left( \cos\biggl(t-\frac{\pi}{2}\biggr),\sin\biggl(t-\frac{\pi}{2}\biggr)+1,0\right).
-$$
+The resulting trajectory is shown in this diagram,
 
 {:refdef: style="text-align: center;"}
 ![](diagramcont.jpg){:height="300px" width="446px"}
 {: refdef}
+
+where $$C(t) = \left( \cos(t-\frac{\pi}{2}),\sin\(t-\frac{\pi}{2})+1,0\right)$$ is a parameterization of the initial turn circle.
+
+
+
+$$
+A(p) = 4\pi\left(1-\sqrt{1-\frac{p^2}{q^2+p^2}}\right).
+$$
+
