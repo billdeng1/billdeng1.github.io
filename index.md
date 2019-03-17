@@ -36,3 +36,5 @@ $$
     \end{array} \right)
 \end{align*}
 $$
+
+![](diagramcont.jpg)
