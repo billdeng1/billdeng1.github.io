@@ -29,6 +29,9 @@ First level header
 # This is a placeholder.
 {:/comment}
 
+In the absence of gravity, is it possible for a fighter plane to out-turn an identical enemy plane by utilizing its ability to roll?
+
+This project demonstrates one such heuristic which achieves this outcome.
 
 Let $$\mathbf{N},\mathbf{B},\mathbf{T},\mathbf{k}$$ be the vectors shown in the diagram, with $$\mathbf{k} = p \mathbf{T} + q \mathbf{B}$$, where $$q$$ and $$p$$ denote the pitch and roll rates respectively.
 
