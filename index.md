@@ -11,6 +11,9 @@ title: Introduction
   img[src*="diagramcont.jpg"] {
 	   border: 1px solid black;
 	}
+  img[src*="diagramvectors.jpg"] {
+	   border: 1px solid black;
+	}
 </style>
 
 First level header
@@ -26,8 +29,12 @@ First level header
 
 Test 3
 
+{:refdef: style="text-align: center;"}
+![](diagramvectors.jpg){:height="250px" width="376px"}
+{: refdef}
+
 $$
-p\frac{d\mathbf{T}}{dt}  + q\frac{d\mathbf{B}}{dt} +  r\frac{d\mathbf{N}}{dt} = 0.
+p\frac{d\mathbf{T}}{dt}  + q\frac{d\mathbf{B}}{dt} = 0.
 $$
 
 $$
@@ -35,11 +42,7 @@ $$
 $$
 
 $$
-A(p) = 4\pi\left(1-\sqrt{1-\frac{p^2}{q^2+ r^2+p^2}}\right).
-$$
-
-$$
-\mathbf{h} = \Biggl(\frac{2\pi p^2}{(p^2+q^2+ r^2)^\frac{3}{2}} ,\frac{2\pi p\sqrt{q^2+ r^2}}{(p^2+q^2+ r^2)^\frac{3}{2}} \Biggr).
+A(p) = 4\pi\left(1-\sqrt{1-\frac{p^2}{q^2+p^2}}\right).
 $$
 
 $$
