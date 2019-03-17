@@ -63,6 +63,6 @@ $$
 C(t) = \left( \cos\biggl(t-\frac{\pi}{2}\biggr),\sin\biggl(t-\frac{\pi}{2}\biggr)+1,0\right).
 $$
 
-{:refdef: style="text-align: center;"}
-![](diagramcont.jpg){:height="36px" width="36px"}
+{:refdef: style="text-align: center; border: 1px solid blue"}
+![](diagramcont.jpg){:height="372px" width="250px"}
 {: refdef}
