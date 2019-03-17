@@ -7,6 +7,11 @@ title: Introduction
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
+<style>
+  img[src*="diagramcont.jpg"] {
+	   border: 1px solid black;
+	}
+</style>
 
 First level header
 ==================
