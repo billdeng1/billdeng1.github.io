@@ -38,7 +38,7 @@ First level header
 # This is a placeholder.
 {:/comment}
 
-**Download Kinematic Flight Simulation:** [Mac](Kinematic Flight Simulation.zip)    [Windows](Kinematic Flight Simulation_win.zip)
+**Download:** [Mac](Kinematic Flight Simulation.zip) | [Windows](Kinematic Flight Simulation_win.zip)
 
 In the absence of gravity, is it possible for a fighter plane to out-turn an identical enemy plane by utilizing its ability to roll?
 
