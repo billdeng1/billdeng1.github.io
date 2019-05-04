@@ -51,6 +51,11 @@ First level header
 
 **Download:** [Mac](Kinematic Flight Simulation.zip) \| [Windows](Kinematic Flight Simulation_win.zip)
 
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/yljpfUZ9SLk" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
 In the absence of gravity, is it possible for a fighter plane to out-turn an identical enemy plane by utilizing its ability to roll?
 
 This project demonstrates one such heuristic which achieves this outcome.
@@ -100,9 +105,6 @@ $$
 A(p) = 4\pi\left(1-\sqrt{1-\frac{p^2}{q^2+p^2}}\right).
 $$
 
-For example, with $$p = 0.15$$, the angular difference is approximately $$8.02^{\circ}.$$ This is shown in the video below.
+For example, with $$p = 0.15$$, the angular difference is approximately $$8.02^{\circ}.$$ This is shown in the video above.
 
 
-<figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/yljpfUZ9SLk" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
