@@ -56,6 +56,8 @@ First level header
   <iframe src="https://www.youtube.com/embed/yljpfUZ9SLk" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
+
+
 In the absence of gravity, is it possible for a fighter plane to out-turn an identical enemy plane by utilizing its ability to roll?
 
 This project demonstrates one such heuristic which achieves this outcome.
