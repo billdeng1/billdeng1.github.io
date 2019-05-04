@@ -28,6 +28,7 @@ iframe {
   height: 340px;
   margin-left: auto; 
   margin-right: auto;
+  margin-bottom: 10px;
 }
 figure{
   text-align: center;
@@ -55,9 +56,6 @@ First level header
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/yljpfUZ9SLk" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
-
-$~$
-
 
 In the absence of gravity, is it possible for a fighter plane to out-turn an identical enemy plane by utilizing its ability to roll?
 
